@@ -1,0 +1,100 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+.logo-mighty{
+    position: relative;
+    width: 130px;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.img-1, .img-2, .img-3{
+    width: 300px;
+}
+
+.eventos-y-logo{
+    display: flex;
+    flex-direction: row; /*por defecto es row*/
+    align-items: center;
+}
+
+nav>a{
+    display: block;
+    margin: 50px;
+    margin-top: -6px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:orange;
+    font-size: 100%; 
+}
+
+.img-banner{
+    width: 100%;
+    position:relative;
+    height: 300px;
+    object-fit: cover;
+    filter:brightness(60%);
+    margin: 0%;
+}
+
+.banner h1{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.eventos-y-logo{
+    position: relative;
+    width: 100%;
+}
+
+/* .upcoming-events{
+    position: absolute;
+    display: flex;
+} */
+
+h2{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -13px;
+}
+
+
+main{
+    margin-top: -220px;
+    margin-left: 250px;
+}
+
+main>article{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

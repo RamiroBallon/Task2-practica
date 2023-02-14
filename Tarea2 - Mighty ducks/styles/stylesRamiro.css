@@ -1,0 +1,80 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+section h1{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.798);
+    font-size: 40px;
+    padding: 10px;
+}
+
+nav {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav a{
+    margin-left: 15px;
+    color: yellow;
+    text-decoration: none;
+}
+
+nav a:hover{
+color:orange;
+font-size: 100%; 
+}
+
+.logo-mighty{
+    position: relative;
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+.img-banner{
+    width: 100%;
+    position:relative;
+    height: 400px;
+    object-fit: cover;
+    filter:brightness(60%);
+    margin: 0%;
+}
+
+.banner{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.upcoming-events{
+    background-color: blue;
+    text-align: center;
+}
+
+h3, p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+main article{
+    padding-top: 20px;
+}
+
+main, header{
+    background-color: rgba(0, 0, 0, 0.409);
+}
+
+
+
+
+
